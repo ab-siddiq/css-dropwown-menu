@@ -37,7 +37,7 @@
     position: absolute;
     background-color: #419197;
     top:70px;
-    left: 0;
+    left: 10px;
     width: 250px;
     text-align: left;
     display: none;
@@ -50,6 +50,7 @@
 }
 #main-menu ul ul li:hover{
     background-color: #765827;
+    transform: translateY(5px);
 }
 #main-menu ul ul li:hover a{
     color: #F5FCCD;;
